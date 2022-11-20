@@ -1,7 +1,7 @@
 .nav {
 	background-color: #f5f8fa;
 	padding: 20px 60px;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid var(--border-color);
 	position: fixed;
 	bottom: 0;
 	width: 100%;
