@@ -130,3 +130,8 @@ table {
 input:focus {
 	outline: none;
 }
+
+a {
+	color: inherit; /* 모든 링크들이 color를 부모로부터 상속받음*/
+	text-decoration: none; /*밑줄 x*/
+}

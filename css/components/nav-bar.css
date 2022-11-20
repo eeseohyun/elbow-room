@@ -1,0 +1,38 @@
+.nav {
+	background-color: #f5f8fa;
+	padding: 20px 60px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box; /**/
+}
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+.nav__link {
+	color: #2e363e;
+	position: relative;
+}
+.nav__notification {
+	display: flex;
+	background-color: tomato;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 30px;
+	top: -20px;
+}
+
+.chat {
+	width: 25px;
+	height: 25px;
+	color: white;
+	font-weight: 600;
+}
+.eclipse {
+	width: 7px;
+	height: 7px;
+}
