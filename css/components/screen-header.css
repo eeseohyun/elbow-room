@@ -11,3 +11,50 @@
 .screen-header__icons span {
 	margin-left: 25px;
 }
+@keyframes rotateCog {
+	from {
+		transform: none;
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+.screen-header__icons .fa-gear:hover {
+	animation: rotateCog 2s linear infinite;
+}
+
+@keyframes listenMusic {
+	0% {
+		transform: none;
+	}
+	25% {
+		transform: translateY(5px);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	75% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: none;
+	}
+}
+.screen-header__icons .fa-music:hover {
+	animation: listenMusic 1s ease-in-out infinite;
+}
+@keyframes findAnimation {
+	0% {
+		transform: none;
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.screen-header__icons .fa-magnifying-glass:hover {
+	animation: findAnimation 1s ease-in-out infinite;
+}

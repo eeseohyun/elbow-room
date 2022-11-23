@@ -26,3 +26,26 @@
 	justify-content: space-between;
 	color: rgba(0, 0, 0, 0.4);
 }
+
+#splash-screen {
+	background-color: var(--green);
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 120px;
+	animation: hideSplashScreen 0.6s ease-in-out forwards;
+}
+
+@keyframes hideSplashScreen {
+	fron {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}

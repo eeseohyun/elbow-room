@@ -10,6 +10,7 @@
 
 .more-suggestions {
 	margin-top: 50px;
+	margin-bottom: 50px;
 	border-top: 1px solid var(--border-color);
 	padding-top: 20px;
 }
@@ -37,4 +38,39 @@
 	font-weight: 600;
 	font-size: 14px;
 	color: rgba(0, 0, 0, 0.5);
+}
+.more-weather {
+	margin-top: 50px;
+	border-top: 1px solid var(--border-color);
+	padding-top: 20px;
+}
+.more-weather__infos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+.more-weather__icon {
+	display: flex;
+}
+.more-weather__info {
+	margin-left: 15px;
+}
+.more-weather__temperature {
+	font-size: 30px;
+}
+.more-weather__info {
+	display: flex;
+	flex-direction: column;
+}
+.more-weather__icon i {
+	color: #fed100;
+	margin-right: 5px;
+}
+.more-weather__dust {
+	opacity: 0.6;
+}
+.more-weather__dust-degree {
+	color: green;
+	font-weight: 600;
 }

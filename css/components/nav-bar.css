@@ -24,8 +24,19 @@
 	position: absolute;
 	left: 30px;
 	top: -20px;
+	animation: notificationAnimation 2s ease-in-out infinite;
 }
-
+@keyframes notificationAnimation {
+	0% {
+		transform: none;
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: none;
+	}
+}
 .chat {
 	width: 25px;
 	height: 25px;
